@@ -10,7 +10,6 @@ public class Basic2 {
         int num1 = sc.nextInt();
         System.out.println("Introduce otro numero:");
         int num2 = sc.nextInt();
-
         sc.nextLine();
 
         System.out.println("Introduce Operacion:");
