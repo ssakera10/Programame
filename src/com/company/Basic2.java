@@ -11,13 +11,16 @@ public class Basic2 {
         System.out.println("Introduce otro numero:");
         int num2 = sc.nextInt();
 
-        System.out.println("Introduce Operacion:");
-        int operacion = sc.nextInt();
+        sc.nextLine();
 
-        if (operacion == 1){
-            System.out.println(num1 + "+" +num2);
-        }else if (operacion == 2){
-            System.out.println(num1 + "*" + num2);
+        System.out.println("Introduce Operacion:");
+        String operacion = sc.nextLine();
+
+
+        if (operacion.equals("*")){
+            System.out.println("Resultado: " + (num1 * num2));
+        }else if (operacion.equals("+")){
+            System.out.println("Resultado: " + (num1 + num2));
         }else {
             System.out.println("Error de Operacion");
         }
