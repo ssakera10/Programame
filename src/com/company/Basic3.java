@@ -23,6 +23,8 @@ public class Basic3 {
             }
             if (variable == false) {
                 System.out.println("Es primo");
+            }else {
+                System.out.println("Error!!");
             }
 
         }
