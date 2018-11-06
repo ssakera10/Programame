@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-public class Problema127 {
+public class Programame127 {
     public static void main(String[] args) {
 
         Scanner teclado = new Scanner(System.in);

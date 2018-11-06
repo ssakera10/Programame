@@ -14,7 +14,7 @@ public class Basic4 {
         int num2 = sc.nextInt();
         sc.nextLine();
         int resto;
-        resto = num1%num2;
+        resto = (num1%num2);
         if (num1 <= num2) {
             if (resto == 0){
                 System.out.println(num1 + " es multiplo de " + num2);
