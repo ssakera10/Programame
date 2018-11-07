@@ -13,16 +13,22 @@ public class Basic4 {
         System.out.println("Introduce otro numero:");
         int num2 = sc.nextInt();
         sc.nextLine();
-        int resto;
-        resto = (num1%num2);
+
+        int resto = (num1%num2);
+        int restos = (num2%num1);
+
         if (num1 <= num2) {
-            if (resto == 0){
+            if (restos == 0){
                 System.out.println(num1 + " es multiplo de " + num2);
             }else {
                 System.out.println(num1 + " no es multiplo de " + num2);
             }
         }else {
-            System.out.println("Error!!");
+            if (resto == 0){
+                System.out.println(num1 + " es multiplo de " + num2);
+            }else {
+                System.out.println(num1 + " no es multiplo de " + num2);
+            }
         }
     }
 
